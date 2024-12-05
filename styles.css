@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    text-align: center;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+#difficulty {
+    margin: 20px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.score-board h3 {
+    margin: 0 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    margin: 0 auto;
+    border: 5px solid #333;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #8b4513;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
